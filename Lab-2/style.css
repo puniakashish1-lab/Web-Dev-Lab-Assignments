@@ -1,0 +1,153 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fb;
+    color: #333333;
+}
+
+/* Header Styling */
+header {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #141e30;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+/* Section Styling */
+section {
+    padding: 35px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+}
+
+section h2 {
+    color: #243b55;
+    margin-bottom: 15px;
+}
+
+/* About Section */
+.about {
+    position: relative;
+    line-height: 1.8;
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #243b55;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf0f6;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+}
+
+/* Button Styling */
+button {
+    background-color: #243b55;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00a6c7;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    border-top: 2px solid #243b55;
+    margin: 25px;
+}
+
+/* Absolute Positioning */
+.tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #00a6c7;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Fixed Back To Top Button */
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #243b55;
+    color: white;
+    text-decoration: none;
+    padding: 12px 17px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/* Static Positioning */
+footer {
+    position: static;
+    background-color: #141e30;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
